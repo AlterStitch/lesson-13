@@ -23,19 +23,25 @@ img
     background-color: lighten($main-color, 10%)
     cursor: pointer
 .section
-  padding: 90px 0
+  padding: 55px 0
   &-title
     font-size: 24px
     +bold
+    text-align: center
   &-subtitle
     display: block
     font-size: 16px
   &-text
     display: flex
+    justify-content: space-between
     margin-top: 30px   
 .input
   border: 1px solid $border-input
-  padding: 20px 26px
+  padding: 25px 26px
   font-size: 15px
   color: #999999
-  border-radius: 10px        
+  border-radius: 10px
+.arrows
+  &__left, &__right
+    &:hover
+      cursor: pointer      
