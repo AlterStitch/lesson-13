@@ -356,6 +356,11 @@ img {
   color: #333333;
 }
 
+.offer__form #username-error {
+  position: absolute;
+  bottom: 148px;
+}
+
 @media (max-width: 1200px) {
   .offer {
     background-size: cover;
