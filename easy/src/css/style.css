@@ -706,6 +706,11 @@ img {
     -ms-flex-wrap: wrap-reverse;
         flex-wrap: wrap-reverse;
   }
+  .contacts {
+    padding-left: 30px;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+  }
   .map {
     position: unset;
     width: 90%;
