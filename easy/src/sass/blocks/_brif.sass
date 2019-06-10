@@ -9,13 +9,14 @@
   &__interview
     flex-basis: 50%
   &__form
+    position: relative
     flex-basis: 50%
     padding-left: 213px
     text-align: center
   &__input
     width: 100%
     max-width: 370px
-    margin-bottom: 12px
+    margin-bottom: 25px
   &__button
     height: 70px
     width: 100%
@@ -24,7 +25,20 @@
     margin-bottom: 30px
     font-size: 16px
     line-height: 18px 
-    +bold   
+    +bold
+#brif-form      
+  #username-error
+    position: absolute
+    left: 57% 
+    top: 304px
+  #phone-error
+    position: absolute
+    left: 57%
+    top: 399px
+  #email-error
+    position: absolute    
+    left: 57%
+    bottom: 135px
 .interview
   padding-right: 65px
   &__title
