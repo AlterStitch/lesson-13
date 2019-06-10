@@ -742,6 +742,12 @@ img {
   color: #333333;
 }
 
+@media (max-width: 1200px) {
+  .contacts {
+    padding-left: 85px;
+  }
+}
+
 @media (max-width: 768px) {
   .footer {
     display: -webkit-box;
