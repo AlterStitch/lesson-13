@@ -61,12 +61,32 @@
     background-size: cover
     &__input
       width: 100%
-      margin-bottom: 10px
+      margin-bottom: 20px
     &__button
       font-size: 13px
+    &__form
+    position: relative
+    #username-error
+      position: absolute
+      top: 68px
+      left: 28%
+    #phone-error
+      position: absolute
+      left: 28%
+      top: 153px  
 @media (max-width: 768px)
   .offer
     background: #ffffff
     &-block
       width: 100%
-      padding-right: 0  
+      padding-right: 0
+    &__form
+      position: relative
+      #username-error
+        position: absolute
+        top: 68px
+        left: 39%
+      #phone-error
+        position: absolute
+        left: 39%
+        top: 153px      

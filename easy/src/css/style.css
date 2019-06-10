@@ -375,13 +375,24 @@ img {
 @media (max-width: 1200px) {
   .offer {
     background-size: cover;
+    position: relative;
   }
   .offer__input {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .offer__button {
     font-size: 13px;
+  }
+  .offer #username-error {
+    position: absolute;
+    top: 68px;
+    left: 28%;
+  }
+  .offer #phone-error {
+    position: absolute;
+    left: 28%;
+    top: 153px;
   }
 }
 
@@ -392,6 +403,19 @@ img {
   .offer-block {
     width: 100%;
     padding-right: 0;
+  }
+  .offer__form {
+    position: relative;
+  }
+  .offer__form #username-error {
+    position: absolute;
+    top: 68px;
+    left: 39%;
+  }
+  .offer__form #phone-error {
+    position: absolute;
+    left: 39%;
+    top: 153px;
   }
 }
 
@@ -424,6 +448,13 @@ img {
 
 .slider__image {
   margin: auto;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .price__title {
@@ -526,6 +557,14 @@ img {
   background-color: #ffd200;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .step {
@@ -715,6 +754,9 @@ img {
     padding-left: 30px;
     -ms-flex-preferred-size: auto;
         flex-basis: auto;
+  }
+  .contacts__title {
+    max-width: 340px;
   }
   .map {
     position: unset;
@@ -906,6 +948,21 @@ img {
   .brif__form {
     margin-top: 80px;
   }
+}
+
+#brif-form #username-error {
+  left: 40%;
+  top: 278px;
+}
+
+#brif-form #phone-error {
+  left: 40%;
+  top: 371px;
+}
+
+#brif-form #email-error {
+  left: 40%;
+  bottom: 136px;
 }
 
 .modal {
