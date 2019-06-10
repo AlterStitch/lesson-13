@@ -3,33 +3,39 @@
   background-position: left center, center right
   background-size: 50%, contain
   background-repeat: repeat-y, no-repeat
+  padding: 34px
   &-block
     display: flex
   &__interview
     flex-basis: 50%
   &__form
     flex-basis: 50%
-    padding-left: 200px
+    padding-left: 213px
     text-align: center
   &__input
     width: 100%
     max-width: 370px
-    margin-bottom: 15px
+    margin-bottom: 12px
   &__button
     height: 70px
     width: 100%
     max-width: 370px
     margin-top: 15px
-    margin-bottom: 30px    
+    margin-bottom: 30px
+    font-size: 16px
+    line-height: 18px 
+    +bold   
 .interview
-  padding-right: 70px
+  padding-right: 65px
   &__title
-    margin-bottom: 50px
+    margin-top: 61px
+    margin-bottom: 44px
     font-size: 22px
+    line-height: 33px
     +bold
   &__subtitle
     display: block
-    margin-bottom: 95px
+    margin-bottom: 92px
     font-size: 16px
   &-list
     list-style: none
@@ -37,8 +43,9 @@
     &__item
       display: flex
       align-items: center
+      font-size: 18px
       +bold
-      margin-bottom: 25px
+      margin-bottom: 32px
     &__counter
       display: inline-block
       margin-right: 30px
@@ -53,15 +60,19 @@
       max-width: 400px  
 .form
   &__title
-    margin-bottom: 50px
+    margin-top: 58px
+    margin-bottom: 36px
     font-size: 22px
+    line-height: 33px
     +bold
   &__subtitle
     display: block
-    margin-bottom: 95px
+    margin-bottom: 38px
     font-size: 16px
+    line-height: 35px
   &__description
-    display: block  
+    display: block
+    font-size: 15px  
 @media (max-width: 1200px)
   .brif
     &__form

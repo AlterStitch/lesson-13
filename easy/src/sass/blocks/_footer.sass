@@ -7,13 +7,13 @@
   width: 50%
 .contacts
   flex-basis: 50%
-  padding-top: 100px
-  padding-left: 200px
+  padding-top: 54px
+  padding-left: 211px
   &__title
     +bold
     font-size: 22px
-    line-height: 1.4 
-    margin-bottom: 100px 
+    line-height: 32px 
+    margin-bottom: 90px 
   &-block
     display: flex
     justify-content: flex-end  
@@ -29,4 +29,23 @@
     &__item
       display: flex
       align-items: flex-start
-      margin-bottom: 39px    
+      margin-bottom: 28px
+    &__text
+      line-height: 26px
+      strong
+        +bold
+      a
+        text-decoration: none
+        +bold
+        color: $text-color 
+
+@media (max-width: 768px)
+  .footer
+    display: flex
+    flex-wrap: wrap-reverse
+  .map
+    position: unset
+    width: 90%
+    margin: auto
+
+
