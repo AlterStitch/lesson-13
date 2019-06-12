@@ -1,0 +1,58 @@
+.footer
+  position: relative
+.map
+  position: absolute
+  left: 0
+  top: 0  
+  width: 50%
+.contacts
+  flex-basis: 50%
+  padding-top: 54px
+  padding-left: 211px
+  &__title
+    +bold
+    font-size: 22px
+    line-height: 32px 
+    margin-bottom: 90px 
+  &-block
+    display: flex
+    justify-content: flex-end  
+  &-list
+    padding: 0
+    list-style: none
+    &__icon
+      width: 20px
+      height: 20px
+      text-align: center
+      line-height: 20px
+      margin-right: 23px
+    &__item
+      display: flex
+      align-items: flex-start
+      margin-bottom: 28px
+    &__text
+      line-height: 26px
+      strong
+        +bold
+      a
+        text-decoration: none
+        +bold
+        color: $text-color
+@media (max-width: 1200px)
+  .contacts
+    padding-left: 85px         
+@media (max-width: 768px)
+  .footer
+    display: flex
+    flex-wrap: wrap-reverse
+  .contacts
+    padding-left: 30px
+    flex-basis: auto
+    &__title
+      max-width: 425px
+  .map
+    position: unset
+    width: 90%
+    margin: auto
+  
+
